@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assignment1.css">
+</head>
+
+<body>
+
+
+    <div class="container col-md-6 border mt-5 p-5">
+        <form name="userform" action="">
+            <fieldset>
+                <div id="legend">
+                    <legend class="">Register</legend>
+                </div>
+                <hr>
+                <div class="control-group mt-5">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Username</label>
+                    <div class="form-group">
+                        <input type="text" id="username" name="username" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="pusername">Username can contain only letters, without spaces
+                        </p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Age -->
+                    <label class="control-label" for="age">Age</label>
+                    <div class="form-group">
+                        <input type="text" id="age" name="age" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="page">Age can contain any  numbers, without spaces between 1 to 24</p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Email -->
+                    <label class="control-label" for="email">Email</label>
+                    <div class="form-group">
+                        <input type="text" id="email" name="email" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="pemail">Enter the valid email</p>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <!-- Phone number -->
+                    <label class="control-label" for="phno">Phone Number</label>
+                    <div class="form-group">
+                        <input type="text" id="phno" name="phno" placeholder="" class="form-control">
+                        <p class="help-block invisible " id="pphno">Enter 10 digit phone number</p>
+                    </div>
+                </div>
+
+
+                <div class="form-group mt-5">
+                    <button class="form-control btn btn-success" id="reg" type="button">Login</button>
+                </div>
+                
+                <div class="form-group mt-5 float-right">
+                        <button class=" btn btn-danger" id="clear" type="button">Clear Storage</button>
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="assignment.js"></script>
+</body>
+
+</html>

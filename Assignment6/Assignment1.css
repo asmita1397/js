@@ -1,0 +1,11 @@
+.addStyle
+{
+ font-size:15px;
+ color:red;
+ visibility:visible;
+}
+.removeStyle
+{
+ 
+ visibility:hidden;
+}
