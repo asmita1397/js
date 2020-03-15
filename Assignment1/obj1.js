@@ -1,72 +1,72 @@
-var person =  new Object();{
-    person.name="Asmita",
-    person.age=10
+const person3=  new Object();{
+    person3.name="Asmita",
+    person3.age=10
 
 }
-console.log("the person name is"+person.name);
+console.log(person3.name);
    
-var car=  new Object();
+const car=  new Object();
 {
     car.name="bez",
     car.color="red"
 }
 console.log(car.name);
 
-var bird=new Object();
+const bird=new Object();
 {
     bird.name="parrot",
     bird.color="green"
 }
 console.log(bird.name);
 
-var phone=new Object();
+const phone=new Object();
 {
     phone.name="Nokia",
     phone.model="v4"
 }
 console.log(phone.name);
 
-var student=new Object();
+const student=new Object();
 {
     student.name="Asmita",
     student.id=101
 }
 console.log(student.name);
 
-var vegitable=new Object();
+const vegitable3=new Object();
 {
-    vegitable.name="cabbage",
-    vegitable.quantity=1
+    vegitable3.name="cabbage",
+    vegitable3.quantity=1
 }
-console.log(vegitable.name);
+console.log(vegitable3.name);
 
-var fruits=new Object();
+const fruits3=new Object();
 {
-    fruits.name="apple",
-    fruits.quantity=1
+    fruits3.name="apple",
+    fruits3.quantity=1
 }
-console.log(fruits.name);
+console.log(fruits3.name);
 
 
-var sweet=new Object();
+const sweet=new Object();
 {
     sweet.name="jamoon",
     sweet.quantity=1
 }
-console.log(fruits.name);
+console.log(sweet.name);
 
-var chats=new Object();
+const chats3=new Object();
 {
-    chats.name="panipuri",
-    chatsquantity=1
+    chats3.name="panipuri",
+    chats3.quantity=1
 }
-console.log(chats.name);
+console.log(chats3.name);
 
-var states=new Object();
+const states3=new Object();
 {
-    states.name="karnataka",
-    states.capital="Bangalore"
+    states3.name="karnataka",
+    states3.capital="Bangalore"
 }
-console.log(states.name);
+console.log(states3.name);
 
     

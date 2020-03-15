@@ -3,10 +3,6 @@ for (const key in userdataArray)
 {
     const {username,age,email,phoneno}=userdataArray[key] 
     
-
-
-
-
 let newRow=regtable.insertRow(regtable.rows.length );
 let newCell1  = newRow.insertCell(0);
 let username1 = username
